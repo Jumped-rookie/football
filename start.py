@@ -44,5 +44,5 @@ for i in months:
     isExists = os.path.exists('./logs/{}'.format(i))
     if not isExists:
         os.makedirs('./logs/{}'.format(i))
-    demo.main(urls, csv_path, i)
+    # demo.main(urls, csv_path, i)
 
