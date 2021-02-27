@@ -36,6 +36,9 @@ for i in months:
         url = "http://bf.win007.com/football/Over_" + j + ".htm"
         urls.append(url)
     # print(urls)
+    isExists = os.path.exists('./data')
+    if not isExists:
+        os.makedirs('./data')
     csv_path = './data/{}.csv'.format(i)
     # print(csv_path)
     isExists = os.path.exists('./logs/{}'.format(i))
