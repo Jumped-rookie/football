@@ -39,6 +39,10 @@ def _write_log(name, txt, s, log_path, len_data=0):
         elif s == 5:
             f.write('该链接页面为空白\n')
             f.write('剩余' + str(len_data) + '场比赛\n')
+        elif s == 6:
+            f.write('无大小球变化表\n')
+            f.write('剩余' + str(len_data) + '场比赛\n')
+
 
 
 def _get_page(new_url):
@@ -51,19 +55,14 @@ def _get_page(new_url):
     r = requests.get(new_url, timeout=10)
     r.encoding = r.apparent_encoding
     page_text = r.text
-    print(page_text)
-    if page_text:
-        print(1)
-    else:
-        print(2)
     return page_text
-_get_page('http://vip.win007.com/AsianOdds_n.aspx?id=1838246')
+
 
 def first_login(url, csv_path, log_path):
     log_name = url[-12:-4]
     print("开始采集{}数据".format(log_name))
     with open('./logs/{}/{}.txt'.format(log_path, log_name), 'w', encoding='utf-8') as f:
-        f.write("开始采集{}数据{}\n".format(log_name, str(datetime.now())))
+        f.write("开始采集{}数据{}\n".format(url, str(datetime.now())))
     page_text = _get_page(url)
     # print(page_text)
     # reobj = re.compile(
@@ -146,55 +145,60 @@ def _second_login(num_list2, date_url, log_name, csv_path, log_path):
                     # 进到大小球变化表
                     new_html = etree.HTML(_get_page(new_url2))
                     tr_list3 = new_html.xpath('//*[@id="odds2"]/table/tr')
-                    fen = False
-                    for tr in tr_list3:
-                        if tr.xpath('./td[1]/text()') == ['中场']:
-                            if tr.xpath('./td[3]//b/text()') != ['封']:
-                                # 中场大小盘
-                                zcdxp = tr.xpath('./td[4]/font/text()')[0]
-                                # 中场大球水位
-                                zcdqsw = tr.xpath('./td[3]//b/text()')[0] + '/' + tr.xpath('./td[5]//b/text()')[0]
-                                # 上半场进球
-                                if not fen:
+                    if tr_list3:
+                        fen = False
+                        for tr in tr_list3:
+                            if tr.xpath('./td[1]/text()') == ['中场']:
+                                if tr.xpath('./td[3]//b/text()') != ['封']:
+                                    # 中场大小盘
+                                    zcdxp = tr.xpath('./td[4]/font/text()')[0]
+                                    # 中场大球水位
+                                    zcdqsw = tr.xpath('./td[3]//b/text()')[0] + '/' + tr.xpath('./td[5]//b/text()')[0]
+                                    # 上半场进球
+                                    if not fen:
+                                        sjq = tr.xpath('./td[2]/text()')[0].split('-')
+                                        sjq = int(sjq[0]) + int(sjq[1])
+                                    data.append(zcdxp)
+                                    data.append(zcdqsw)
+                                    data.append(sjq)
+                                    break
+                                else:
+                                    # 上半场进球
+                                    fen = True
                                     sjq = tr.xpath('./td[2]/text()')[0].split('-')
                                     sjq = int(sjq[0]) + int(sjq[1])
-                                data.append(zcdxp)
-                                data.append(zcdqsw)
-                                data.append(sjq)
-                                break
-                            else:
-                                # 上半场进球
-                                fen = True
-                                sjq = tr.xpath('./td[2]/text()')[0].split('-')
-                                sjq = int(sjq[0]) + int(sjq[1])
-                    # 最终进球数
-                    tr = tr_list3[1]
-                    if tr.xpath('./td[2]/text()'):
-                        zzjqs = tr.xpath('./td[2]/text()')[0].split('-')
-                        zzjqs = int(zzjqs[0]) + int(zzjqs[1])
+                        # 最终进球数
+                        tr = tr_list3[1]
+                        if tr.xpath('./td[2]/text()'):
+                            zzjqs = tr.xpath('./td[2]/text()')[0].split('-')
+                            zzjqs = int(zzjqs[0]) + int(zzjqs[1])
+                        else:
+                            zzjqs = '大小球变化表没有时间和比分'
+                        data.append(zzjqs)
+                        # 75分钟80分钟后进球数
+                        s = True
+                        for tr in tr_list3:
+                            if tr.xpath('./td[1]/text()'):
+                                if int(tr.xpath('./td[1]/text()')[0]) <= 80 and s:
+                                    # 80分钟进球数
+                                    s = False
+                                    jqs80 = tr.xpath('./td[2]/text()')[0].split('-')
+                                    jqs80 = int(jqs80[0]) + int(jqs80[1])
+                                if int(tr.xpath('./td[1]/text()')[0]) <= 75:
+                                    # 75分钟进球数
+                                    jqs75 = tr.xpath('./td[2]/text()')[0].split('-')
+                                    jqs75 = int(jqs75[0]) + int(jqs75[1])
+                                    after80 = zzjqs - jqs80
+                                    after75 = zzjqs - jqs75
+                                    data.append(after75)
+                                    data.append(after80)
+                                    break
+                        _write_csv(data, csv_path)
+                        _write_log(log_name, url, 2, log_path, len(num_list2))
                     else:
-                        zzjqs = '大小球变化表没有时间和比分'
-                    data.append(zzjqs)
-                    # 75分钟80分钟后进球数
-                    s = True
-                    for tr in tr_list3:
-                        if tr.xpath('./td[1]/text()'):
-                            if int(tr.xpath('./td[1]/text()')[0]) <= 80 and s:
-                                # 80分钟进球数
-                                s = False
-                                jqs80 = tr.xpath('./td[2]/text()')[0].split('-')
-                                jqs80 = int(jqs80[0]) + int(jqs80[1])
-                            if int(tr.xpath('./td[1]/text()')[0]) <= 75:
-                                # 75分钟进球数
-                                jqs75 = tr.xpath('./td[2]/text()')[0].split('-')
-                                jqs75 = int(jqs75[0]) + int(jqs75[1])
-                                after80 = zzjqs - jqs80
-                                after75 = zzjqs - jqs75
-                                data.append(after75)
-                                data.append(after80)
-                                break
-                    _write_csv(data, csv_path)
-                    _write_log(log_name, url, 2, log_path, len(num_list2))
+                        print('无大小球变化表')
+                        _write_log(log_name, url, 6, log_path, len(num_list2))
+
                 else:
                     print('没满足条件')
                     _write_log(log_name, url, 3, log_path, len(num_list2))

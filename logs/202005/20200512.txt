@@ -1,0 +1,29 @@
+开始采集http://bf.win007.com/football/Over_20200512.htm数据2021-02-28 13:39:39.274199
+采集开始http://vip.win007.com/AsianOdds_n.aspx?id=1867718
+结束采集,未满足条件
+剩余8场比赛
+采集开始http://vip.win007.com/AsianOdds_n.aspx?id=1867794
+结束采集,未满足条件
+剩余7场比赛
+采集开始http://vip.win007.com/AsianOdds_n.aspx?id=1868037
+结束采集,未满足条件
+剩余6场比赛
+采集开始http://vip.win007.com/AsianOdds_n.aspx?id=1868105
+结束采集,未满足条件
+剩余5场比赛
+采集开始http://vip.win007.com/AsianOdds_n.aspx?id=1868106
+结束采集,未满足条件
+剩余4场比赛
+采集开始http://vip.win007.com/AsianOdds_n.aspx?id=1868038
+结束采集,未满足条件
+剩余3场比赛
+采集开始http://vip.win007.com/AsianOdds_n.aspx?id=1868039
+结束采集,未满足条件
+剩余2场比赛
+采集开始http://vip.win007.com/AsianOdds_n.aspx?id=1868108
+结束采集,未满足条件
+剩余1场比赛
+采集开始http://vip.win007.com/AsianOdds_n.aspx?id=1868040
+结束采集,未满足条件
+剩余0场比赛
+结束采集2021-02-28 13:40:08.219273
