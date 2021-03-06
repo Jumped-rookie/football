@@ -2,9 +2,463 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c72d48-eacf-4e28-8f7a-704422625b03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/celue1/celue1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celue1/logs/202001/20200131.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celue3/celue3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/celue3/start_celue3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202001.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202001.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202002.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202002.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202003.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202003.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202004.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202004.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202005.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202005.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202006.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202006.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202007.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202007.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202008.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202008.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202009.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202009.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202010.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202010.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202011.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202011.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202012.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202012.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202101.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202101.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/202102.csv" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/data/202102.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200101.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200101.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200102.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200102.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200103.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200103.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200104.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200104.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200105.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200105.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200106.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200106.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200107.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200107.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200108.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200108.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200109.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200109.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200110.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200110.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200111.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200111.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200112.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200112.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200113.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200113.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200114.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200114.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200115.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200115.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200116.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200116.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200117.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200117.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200118.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200118.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200119.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200119.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200120.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200120.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200121.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200121.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200122.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200122.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200123.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200123.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200124.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200124.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200125.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200125.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200126.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200126.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200127.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200127.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200128.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200128.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200129.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200129.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200130.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202001/20200130.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202001/20200131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200201.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200201.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200202.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200202.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200203.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200203.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200204.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200204.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200205.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200205.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200206.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200206.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200207.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200207.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200208.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200208.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200209.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200209.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200210.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200210.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200211.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200211.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200212.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200212.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200213.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200213.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200214.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200214.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200215.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200215.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200216.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200216.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200217.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200217.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200218.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200218.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200219.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200219.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200220.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200220.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200221.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200221.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200222.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200222.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200223.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200223.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200224.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200224.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200225.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200225.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200226.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200226.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200227.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200227.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200228.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200228.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202002/20200229.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202002/20200229.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200301.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200301.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200302.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200302.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200303.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200303.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200304.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200304.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200305.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200305.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200306.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200306.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200307.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200307.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200308.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200308.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200309.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200309.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200310.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200310.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200311.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200311.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200312.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200312.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200313.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200313.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200314.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200314.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200315.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200315.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200316.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200316.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200317.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200317.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200318.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200318.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200319.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200319.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200320.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200320.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200321.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200321.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200322.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200322.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200323.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200323.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200324.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200324.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200325.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200325.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200326.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200326.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200327.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200327.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200328.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200328.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200329.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200329.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200330.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200330.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202003/20200331.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202003/20200331.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200401.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200401.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200402.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200402.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200403.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200403.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200404.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200404.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200405.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200405.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200406.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200406.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200407.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200407.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200408.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200408.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200409.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200409.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200410.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200410.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200411.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200411.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200412.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200412.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200413.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200413.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200414.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200414.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200415.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200415.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200416.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200416.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200417.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200417.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200418.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200418.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200419.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200419.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200420.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200420.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200421.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200421.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200422.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200422.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200423.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200423.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200424.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200424.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200425.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200425.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200426.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200426.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200427.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200427.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200428.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200428.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200429.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200429.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202004/20200430.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202004/20200430.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200501.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200501.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200502.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200502.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200503.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200503.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200504.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200504.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200505.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200505.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200506.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200506.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200507.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200507.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200508.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200508.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200509.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200509.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200510.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200510.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200511.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200511.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200512.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200512.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200513.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200513.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200514.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200514.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200515.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200515.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200516.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200516.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200517.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200517.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200518.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200518.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200519.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200519.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200520.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200520.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200521.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200521.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200522.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200522.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200523.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200523.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200524.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200524.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200525.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200525.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200526.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200526.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200527.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200527.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200528.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200528.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200529.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200529.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200530.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200530.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202005/20200531.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202005/20200531.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200601.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200601.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200602.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200602.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200603.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200603.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200604.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200604.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200605.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200605.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200606.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200606.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200607.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200607.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200608.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200608.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200609.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200609.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200610.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200610.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200611.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200611.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200612.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200612.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200613.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200613.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200614.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200614.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200615.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200615.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200616.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200616.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200617.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200617.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200618.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200618.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200619.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200619.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200620.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200620.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200621.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200621.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200622.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200622.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200623.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200623.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200624.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200624.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200625.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200625.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200626.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200626.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200627.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200627.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200628.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200628.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200629.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200629.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202006/20200630.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202006/20200630.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200701.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200701.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200702.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200702.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200703.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200703.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200704.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200704.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200705.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200705.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200706.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200706.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200707.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200707.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200708.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200708.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200709.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200709.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200710.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200710.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200711.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200711.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200712.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200712.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200713.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200713.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200714.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200714.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200715.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200715.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200716.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200716.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200717.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200717.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200718.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200718.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200719.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200719.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200720.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200720.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200721.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200721.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200722.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200722.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200723.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200723.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200724.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200724.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200725.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200725.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200726.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200726.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200727.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200727.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200728.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200728.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200729.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200729.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200730.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200730.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202007/20200731.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202007/20200731.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200801.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200801.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200802.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200802.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200803.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200803.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200804.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200804.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200805.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200805.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200806.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200806.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200807.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200807.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200808.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200808.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200809.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200809.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200810.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200810.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200811.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200811.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200812.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200812.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200813.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200813.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200814.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200814.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200815.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200815.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200816.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200816.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200817.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200817.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200818.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200818.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200819.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200819.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200820.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200820.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200821.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200821.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200822.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200822.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200823.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200823.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200824.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200824.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200825.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200825.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200826.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200826.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200827.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200827.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200828.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200828.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200829.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200829.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200830.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200830.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008/20200831.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202008/20200831.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200901.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200901.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200902.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200902.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200903.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200903.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200904.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200904.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200905.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200905.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200906.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200906.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200907.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200907.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200908.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200908.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200909.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200909.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200910.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200910.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200911.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200911.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200912.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200912.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200913.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200913.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200914.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200914.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200915.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200915.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200916.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200916.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200917.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200917.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200918.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200918.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200919.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200919.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200920.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200920.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200921.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200921.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200922.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200922.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200923.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200923.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200924.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200924.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200925.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200925.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200926.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200926.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200927.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200927.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200928.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200928.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200929.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200929.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202009/20200930.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202009/20200930.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201002.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201003.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201003.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201004.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201004.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201005.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201005.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201006.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201006.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201007.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201007.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201008.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201008.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201009.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201009.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201010.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201010.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201011.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201011.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201012.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201012.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201013.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201013.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201014.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201014.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201015.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201015.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201016.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201016.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201017.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201017.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201018.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201018.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201020.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201020.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201021.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201021.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201022.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201022.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201023.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201023.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201024.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201024.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201025.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201025.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201026.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201026.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201027.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201027.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201028.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201028.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201029.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201029.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201030.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201030.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202010/20201031.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202010/20201031.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201101.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201101.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201102.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201102.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201103.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201103.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201104.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201104.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201105.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201105.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201106.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201106.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201107.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201107.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201108.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201108.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201109.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201109.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201110.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201110.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201111.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201111.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201112.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201112.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201113.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201113.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201114.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201114.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201115.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201115.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201116.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201116.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201117.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201117.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201118.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201118.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201119.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201119.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201120.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201120.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201121.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201121.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201122.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201122.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201123.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201123.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201124.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201124.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201125.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201125.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201126.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201126.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201127.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201127.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201128.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201128.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201129.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201129.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202011/20201130.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202011/20201130.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201201.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201201.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201202.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201202.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201203.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201203.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201204.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201204.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201205.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201205.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201206.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201206.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201207.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201207.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201208.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201208.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201209.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201209.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201210.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201210.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201211.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201211.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201212.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201212.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201213.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201213.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201214.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201214.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201215.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201215.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201216.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201216.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201217.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201217.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201218.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201218.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201219.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201219.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201220.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201220.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201221.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201221.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201222.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201222.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201223.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201223.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201224.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201224.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201225.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201225.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201226.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201226.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201227.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201227.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201228.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201228.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201229.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201229.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201230.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201230.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202012/20201231.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202012/20201231.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210101.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210101.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210102.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210102.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210103.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210103.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210104.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210104.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210105.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210105.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210106.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210106.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210107.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210107.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210108.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210108.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210109.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210109.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210110.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210110.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210111.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210111.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210112.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210112.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210113.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210113.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210114.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210114.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210115.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210115.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210116.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210116.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210117.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210117.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210118.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210118.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210119.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210119.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210120.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210120.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210121.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210121.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210122.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210122.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210123.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210123.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210124.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210124.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210125.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210125.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210126.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210126.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210127.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210127.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210128.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210128.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210129.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210129.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210130.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210130.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202101/20210131.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202101/20210131.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210201.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210201.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210202.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210202.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210203.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210203.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210204.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210204.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210205.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210205.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210206.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210206.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210207.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210207.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210208.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210208.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210209.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210209.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210210.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210210.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210211.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210211.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210212.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210212.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210213.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210213.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210214.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210214.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210215.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210215.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210216.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210216.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210217.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210217.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210218.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210218.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210219.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210219.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210220.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210220.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210221.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210221.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210222.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210222.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210223.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210223.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210224.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210224.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210225.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210225.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210226.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210226.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210227.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210227.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202102/20210228.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/202102/20210228.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20210220.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/20210220.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20210221.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/20210221.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20210222.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/20210222.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20210223.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/20210223.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20210224.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/20210224.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20210225.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/20210225.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/20210226.txt" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/logs/20210226.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/start_celue1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start2.py" beforeDir="false" afterPath="$PROJECT_DIR$/celue1/start2_celue1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新建文本文档.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +484,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/策略3" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.demo">
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PyCharm Community\python\项目\football\策略3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PyCharm Community\python\项目\football\策略3" />
+      <recent name="D:\PyCharm Community\python\项目\football" />
+      <recent name="D:\PyCharm Community\python\项目\football\策略1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.start_celue3">
+    <configuration name="celue1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="football" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -41,11 +506,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/策略1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/策略1/celue1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -54,7 +519,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="celue3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="football" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/celue3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/celue3/celue3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="csv_merge - 副本 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="football" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/celue1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/celue1/csv_merge - 副本.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start_celue1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="football" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +573,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start.py" />
+      <option name="SCRIPT_NAME" value="D:\PyCharm Community\python\项目\football\策略1\start_celue1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start_celue3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="football" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/celue3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/celue3/start_celue3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,8 +605,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.demo" />
-        <item itemvalue="Python.start" />
+        <item itemvalue="Python.start_celue3" />
+        <item itemvalue="Python.csv_merge - 副本 (1)" />
+        <item itemvalue="Python.celue3" />
+        <item itemvalue="Python.celue1 (1)" />
+        <item itemvalue="Python.celue1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -96,29 +627,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1428" height="224" key="GridCell.Tab.0.bottom" timestamp="1614430085700">
+    <state x="547" y="264" key="#com.intellij.ide.actions.DebugLogConfigureAction" timestamp="1614947541208">
       <screen x="0" y="0" width="1470" height="864" />
     </state>
-    <state width="1428" height="224" key="GridCell.Tab.0.bottom/0.0.1470.864@0.0.1470.864" timestamp="1614430085700" />
-    <state width="1428" height="224" key="GridCell.Tab.0.center" timestamp="1614430085698">
+    <state x="547" y="264" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.0.1470.864@0.0.1470.864" timestamp="1614947541208" />
+    <state width="1428" height="242" key="GridCell.Tab.0.bottom" timestamp="1615028216607">
       <screen x="0" y="0" width="1470" height="864" />
     </state>
-    <state width="1428" height="224" key="GridCell.Tab.0.center/0.0.1470.864@0.0.1470.864" timestamp="1614430085698" />
-    <state width="1428" height="224" key="GridCell.Tab.0.left" timestamp="1614430085639">
+    <state width="1428" height="242" key="GridCell.Tab.0.bottom/0.0.1470.864@0.0.1470.864" timestamp="1615028216607" />
+    <state width="1428" height="242" key="GridCell.Tab.0.center" timestamp="1615028216606">
       <screen x="0" y="0" width="1470" height="864" />
     </state>
-    <state width="1428" height="224" key="GridCell.Tab.0.left/0.0.1470.864@0.0.1470.864" timestamp="1614430085639" />
-    <state width="1428" height="224" key="GridCell.Tab.0.right" timestamp="1614430085699">
+    <state width="1428" height="242" key="GridCell.Tab.0.center/0.0.1470.864@0.0.1470.864" timestamp="1615028216606" />
+    <state width="1428" height="242" key="GridCell.Tab.0.left" timestamp="1615028216606">
       <screen x="0" y="0" width="1470" height="864" />
     </state>
-    <state width="1428" height="224" key="GridCell.Tab.0.right/0.0.1470.864@0.0.1470.864" timestamp="1614430085699" />
-    <state x="416" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1614310378700">
+    <state width="1428" height="242" key="GridCell.Tab.0.left/0.0.1470.864@0.0.1470.864" timestamp="1615028216606" />
+    <state width="1428" height="242" key="GridCell.Tab.0.right" timestamp="1615028216606">
       <screen x="0" y="0" width="1470" height="864" />
     </state>
-    <state x="416" y="256" key="com.intellij.ide.util.TipDialog/0.0.1470.864@0.0.1470.864" timestamp="1614310378700" />
-    <state x="398" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1614268065003">
+    <state width="1428" height="242" key="GridCell.Tab.0.right/0.0.1470.864@0.0.1470.864" timestamp="1615028216606" />
+    <state width="1428" height="277" key="GridCell.Tab.1.bottom" timestamp="1614780333475">
       <screen x="0" y="0" width="1470" height="864" />
     </state>
-    <state x="398" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1470.864@0.0.1470.864" timestamp="1614268065003" />
+    <state width="1428" height="277" key="GridCell.Tab.1.bottom/0.0.1470.864@0.0.1470.864" timestamp="1614780333475" />
+    <state width="1428" height="277" key="GridCell.Tab.1.center" timestamp="1614780333475">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state width="1428" height="277" key="GridCell.Tab.1.center/0.0.1470.864@0.0.1470.864" timestamp="1614780333475" />
+    <state width="1428" height="277" key="GridCell.Tab.1.left" timestamp="1614780333475">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state width="1428" height="277" key="GridCell.Tab.1.left/0.0.1470.864@0.0.1470.864" timestamp="1614780333475" />
+    <state width="1428" height="277" key="GridCell.Tab.1.right" timestamp="1614780333475">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state width="1428" height="277" key="GridCell.Tab.1.right/0.0.1470.864@0.0.1470.864" timestamp="1614780333475" />
+    <state x="416" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1614992643277">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state x="416" y="256" key="com.intellij.ide.util.TipDialog/0.0.1470.864@0.0.1470.864" timestamp="1614992643277" />
+    <state x="398" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1614947539568">
+      <screen x="0" y="0" width="1470" height="864" />
+    </state>
+    <state x="398" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1470.864@0.0.1470.864" timestamp="1614947539568" />
   </component>
 </project>
