@@ -1,0 +1,32 @@
+开始采集http://bf.win007.com/football/Over_20200427.htm数据2021-03-26 07:00:02.338775
+采集开始http://op1.win007.com/oddslist/1867447.htm
+结束采集,本场没有欧指页面
+剩余9场比赛
+采集开始http://op1.win007.com/oddslist/1867452.htm
+结束采集,本场没有欧指页面
+剩余8场比赛
+采集开始http://op1.win007.com/oddslist/1867448.htm
+结束采集,本场没有欧指页面
+剩余7场比赛
+采集开始http://op1.win007.com/oddslist/1867449.htm
+结束采集,本场没有欧指页面
+剩余6场比赛
+采集开始http://op1.win007.com/oddslist/1867450.htm
+结束采集,本场没有欧指页面
+剩余5场比赛
+采集开始http://op1.win007.com/oddslist/1867451.htm
+结束采集,本场没有欧指页面
+剩余4场比赛
+采集开始http://op1.win007.com/oddslist/1867453.htm
+结束采集,本场没有欧指页面
+剩余3场比赛
+采集开始http://op1.win007.com/oddslist/1867454.htm
+结束采集,本场没有欧指页面
+剩余2场比赛
+采集开始http://op1.win007.com/oddslist/1867455.htm
+结束采集,本场没有欧指页面
+剩余1场比赛
+采集开始http://op1.win007.com/oddslist/1867456.htm
+结束采集,本场没有欧指页面
+剩余0场比赛
+结束采集2021-03-26 07:01:29.584974

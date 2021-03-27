@@ -32,20 +32,26 @@ def _write_log(name, txt, s, log_path, len_data=0):
 def _get_page(new_url):
     """打开页面，返回html"""
     # 实现无可视化界面的操作
+    c_service = Service(r'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe')
+    c_service.command_line_args()
+    c_service.start()
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('blink-settings=imagesEnabled=false')
     driver = webdriver.Chrome(chrome_options=chrome_options)  # 参数添加
     driver.set_page_load_timeout(10)
-    driver.get(new_url)
-    page_text = driver.page_source
-    driver.quit()
-    # headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36'}
-    # r = requests.get(new_url, timeout=10)
-    # r.encoding = r.apparent_encoding
-    # page_text = r.text
-    return page_text
+    try:
+        driver.get(new_url)
+        time.sleep(1)
+        page_text = driver.page_source
+        driver.quit()
+        c_service.stop()
+        return page_text
+    except:
+        print('访问超时')
+        driver.quit()
+        c_service.stop()
 
 
 def _go_daxiaoqiu(id):
@@ -364,9 +370,8 @@ def _second_login(num_list2, date_url, log_name, csv_path, log_path):
 
 
 def main(url_list, csv_path, log_path):
-    create_csv(csv_path)
+    isExists = os.path.exists(csv_path)
+    if not isExists:
+        create_csv(csv_path)
     for url in url_list:
         first_login(url, csv_path, log_path)
-
-
-

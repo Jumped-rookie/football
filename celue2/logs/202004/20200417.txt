@@ -1,0 +1,23 @@
+开始采集http://bf.win007.com/football/Over_20200417.htm数据2021-03-26 08:12:09.070734
+采集开始http://op1.win007.com/oddslist/1866831.htm
+结束采集,本场没符合条件
+剩余6场比赛
+采集开始http://op1.win007.com/oddslist/1866830.htm
+结束采集,满足条件计入数据
+剩余5场比赛
+采集开始http://op1.win007.com/oddslist/1866829.htm
+结束采集,满足条件计入数据
+剩余4场比赛
+采集开始http://op1.win007.com/oddslist/1866832.htm
+结束采集,本场没符合条件
+剩余3场比赛
+采集开始http://op1.win007.com/oddslist/1861133.htm
+结束采集,满足条件计入数据
+剩余2场比赛
+采集开始http://op1.win007.com/oddslist/1866319.htm
+结束采集,本场没符合条件
+剩余1场比赛
+采集开始http://op1.win007.com/oddslist/1861132.htm
+结束采集,满足条件计入数据
+剩余0场比赛
+结束采集2021-03-26 08:15:35.491189
