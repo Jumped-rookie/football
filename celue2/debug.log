@@ -1,0 +1,8 @@
+[0320/054458.882:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\mlzboy\AppData\Local\Temp\18\scoped_dir14488_1350303274\Crashpad\reports\cebb2444-7786-4491-980a-5a340ee6e15c.dmp: 另一个程序正在使用此文件，进程无法访问。 (0x20)
+[0320/054459.523:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\mlzboy\AppData\Local\Temp\18\scoped_dir17312_2077572956\Crashpad\reports\0873f500-64cb-4b9b-bd97-4560fab8c19c.dmp: 另一个程序正在使用此文件，进程无法访问。 (0x20)
+[0321/011021.834:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0321/011022.037:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0321/011313.208:ERROR:crashpad_client_win.cc(520)] CreateProcess: 系统资源不足，无法完成请求的服务。 (0x5AA)
+[0321/011313.415:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0321/011539.223:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0321/035343.924:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\mlzboy\AppData\Local\Temp\18\scoped_dir5404_1171443492\Crashpad\reports\3963be84-f779-4d64-9d1a-dd0b3de9bcca.dmp: 另一个程序正在使用此文件，进程无法访问。 (0x20)

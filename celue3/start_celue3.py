@@ -23,8 +23,7 @@ for i in url_list:
     date_dict.setdefault(key, [])
     date_dict[key].append(i)
 
-months = ['202001', '202002', '202003', '202004', '202005',
-          '202006', '202007']  # 选择要爬取的月份,该月在url_list中存在
+months = ['202002']  # 选择要爬取的月份,该月在url_list中存在
 
 
 for i in months:

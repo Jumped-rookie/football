@@ -1,0 +1,32 @@
+开始采集http://bf.win007.com/football/Over_20200427.htm数据2021-03-11 11:58:35.919401
+采集开始http://live.win007.com/detail/1867447cn.htm
+没有详细事件
+剩余9场比赛
+采集开始http://live.win007.com/detail/1867452cn.htm
+没有详细事件
+剩余8场比赛
+采集开始http://live.win007.com/detail/1867448cn.htm
+没有详细事件
+剩余7场比赛
+采集开始http://live.win007.com/detail/1867449cn.htm
+没有详细事件
+剩余6场比赛
+采集开始http://live.win007.com/detail/1867450cn.htm
+没有详细事件
+剩余5场比赛
+采集开始http://live.win007.com/detail/1867451cn.htm
+没有详细事件
+剩余4场比赛
+采集开始http://live.win007.com/detail/1867453cn.htm
+没有详细事件
+剩余3场比赛
+采集开始http://live.win007.com/detail/1867454cn.htm
+没有详细事件
+剩余2场比赛
+采集开始http://live.win007.com/detail/1867455cn.htm
+没有详细事件
+剩余1场比赛
+采集开始http://live.win007.com/detail/1867456cn.htm
+没有详细事件
+剩余0场比赛
+结束采集2021-03-11 12:00:40.695845

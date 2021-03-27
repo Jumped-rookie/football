@@ -1,0 +1,50 @@
+[0307/062921.752:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0307/063055.760:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/024840.820:ERROR:crashpad_client_win.cc(520)] CreateProcess: 页面文件太小，无法完成操作。 (0x5AF)
+[0308/024841.132:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/074726.761:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/074726.761:ERROR:file_io.cc(90)] ReadExactly: expected 40, observed 0
+[0308/074845.252:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/075003.760:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/075003.760:ERROR:file_io.cc(90)] ReadExactly: expected 40, observed 0
+[0308/075107.326:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/075432.905:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/080257.713:ERROR:crashpad_client_win.cc(520)] CreateProcess: 页面文件太小，无法完成操作。 (0x5AF)
+[0308/080257.744:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/080416.251:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/080519.771:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/080826.635:ERROR:crashpad_client_win.cc(520)] CreateProcess: 页面文件太小，无法完成操作。 (0x5AF)
+[0308/080826.651:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/080930.109:ERROR:crashpad_client_win.cc(520)] CreateProcess: 页面文件太小，无法完成操作。 (0x5AF)
+[0308/080930.155:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/081137.102:ERROR:crashpad_client_win.cc(520)] CreateProcess: 系统资源不足，无法完成请求的服务。 (0x5AA)
+[0308/081137.133:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/081344.095:ERROR:crashpad_client_win.cc(520)] CreateProcess: 系统资源不足，无法完成请求的服务。 (0x5AA)
+[0308/081344.126:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/081606.247:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/081606.247:ERROR:file_io.cc(90)] ReadExactly: expected 40, observed 0
+[0308/081709.752:ERROR:crashpad_client_win.cc(520)] CreateProcess: 页面文件太小，无法完成操作。 (0x5AF)
+[0308/081709.767:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/082223.687:ERROR:crashpad_client_win.cc(520)] CreateProcess: 系统资源不足，无法完成请求的服务。 (0x5AA)
+[0308/082223.703:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/082327.192:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/082534.263:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/082741.319:ERROR:crashpad_client_win.cc(520)] CreateProcess: 系统资源不足，无法完成请求的服务。 (0x5AA)
+[0308/082741.334:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/083256.221:ERROR:crashpad_client_win.cc(520)] CreateProcess: 系统资源不足，无法完成请求的服务。 (0x5AA)
+[0308/083256.237:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/083359.757:ERROR:crashpad_client_win.cc(520)] CreateProcess: 系统资源不足，无法完成请求的服务。 (0x5AA)
+[0308/083359.772:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/083503.261:ERROR:crashpad_client_win.cc(520)] CreateProcess: 页面文件太小，无法完成操作。 (0x5AF)
+[0308/083503.277:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/083813.790:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/083917.373:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/083917.388:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/084035.864:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/084139.400:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/084139.416:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/084257.923:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/084416.399:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)
+[0308/085312.465:ERROR:crashpad_client_win.cc(520)] CreateProcess: 页面文件太小，无法完成操作。 (0x5AF)
+[0308/085312.496:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[0308/105706.758:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: 管道已结束。 (0x6D)

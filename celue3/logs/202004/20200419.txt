@@ -1,0 +1,32 @@
+开始采集http://bf.win007.com/football/Over_20200419.htm数据2021-03-11 12:23:42.018143
+采集开始http://live.win007.com/detail/1866613cn.htm
+结束采集,比赛75分钟前没有发生6个进球
+剩余9场比赛
+采集开始http://live.win007.com/detail/1866642cn.htm
+结束采集,比赛75分钟前没有发生6个进球
+剩余8场比赛
+采集开始http://live.win007.com/detail/1866611cn.htm
+结束采集,比赛75分钟前没有发生6个进球
+剩余7场比赛
+采集开始http://live.win007.com/detail/1866612cn.htm
+结束采集,比赛75分钟前没有发生6个进球
+剩余6场比赛
+采集开始http://live.win007.com/detail/1865753cn.htm
+结束采集,比赛75分钟前没有发生6个进球
+剩余5场比赛
+采集开始http://live.win007.com/detail/1866760cn.htm
+结束采集,比赛75分钟前没有发生6个进球
+剩余4场比赛
+采集开始http://live.win007.com/detail/1866876cn.htm
+结束采集,比赛75分钟前没有发生6个进球
+剩余3场比赛
+采集开始http://live.win007.com/detail/1867323cn.htm
+结束采集,比赛75分钟前没有发生6个进球
+剩余2场比赛
+采集开始http://live.win007.com/detail/1867324cn.htm
+结束采集,比赛75分钟前没有发生6个进球
+剩余1场比赛
+采集开始http://live.win007.com/detail/1867322cn.htm
+结束采集,比赛75分钟前没有发生6个进球
+剩余0场比赛
+结束采集2021-03-11 12:25:48.065944

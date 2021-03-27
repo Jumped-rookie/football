@@ -35,6 +35,7 @@ def _get_page(new_url):
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument('blink-settings=imagesEnabled=false')
     driver = webdriver.Chrome(chrome_options=chrome_options)  # 参数添加
     driver.set_page_load_timeout(10)
     driver.get(new_url)
