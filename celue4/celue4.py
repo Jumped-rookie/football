@@ -309,7 +309,7 @@ def _pd(zscp, pjcp, kscp, zszp, pjzp, kszp):
     if '\xa0' == zscp or '\xa0' == pjcp or '\xa0' == kscp or \
             '\xa0' == zszp or '\xa0' == pjzp or '\xa0' == kszp:
         return False
-    if eval(zscp) > eval(kscp) and eval(zszp) > eval(zscp) and eval(zszp)-eval(kszp) >= -0.2:
+    if eval(zscp) > eval(kscp) and eval(zscp) < 3 and eval(zszp) > eval(zscp) and eval(zszp)-eval(kszp) >= -0.2:
         return True
     else:
         return False
