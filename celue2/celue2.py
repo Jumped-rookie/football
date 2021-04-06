@@ -298,6 +298,10 @@ def _get_xiangshishijian(url):
     eh = etree.HTML(_get_page(url))
     trs = eh.xpath('.//*[@id="teamEventDiv_detail"]//tr')
     if len(trs) > 1:
+        td = trs[1]
+        L_bf = int(td.xpath('./td[1]//text()')[0])
+        R_bf = int(td.xpath('./td[3]//text()')[0])
+
         first_jq = '1'
         for i in trs:
             L_jq = i.xpath('./td[2]/img/@title')
@@ -308,7 +312,10 @@ def _get_xiangshishijian(url):
             elif R_jq == ['入球'] or R_jq == ['点球'] or R_jq == ['乌龙']:
                 first_jq = '0'
                 return first_jq
-        return first_jq
+        if first_jq == '1' and L_bf + R_bf == 0:
+            return first_jq
+        else:
+            return '找不到首先进球方'
     else:
         print('没有详细事件')
         return '没有详细事件'

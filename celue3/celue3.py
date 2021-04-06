@@ -5,7 +5,7 @@ from datetime import datetime, date, timedelta
 from selenium import webdriver
 from lxml import etree
 import requests
-import re, csv
+import re, csv, os
 import time
 from selenium.webdriver.chrome.service import Service
 
