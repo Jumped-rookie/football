@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 from datetime import date, timedelta
-import celue1
+import celue4
 import os
 
 
@@ -13,8 +13,7 @@ for i in url_list:
     date_dict.setdefault(key, [])
     date_dict[key].append(i)
 
-months = ['202010', '202011', '202012',
-          '202101', '202102']   # 选择要爬取的月份,该月在url_list中存在
+months = [ '202005', '202006', '202007', '202008', '202009', ]   # 选择要爬取的月份,该月在url_list中存在
 
 
 for i in months:
@@ -32,4 +31,4 @@ for i in months:
     isExists = os.path.exists('./logs/{}'.format(i))
     if not isExists:
         os.makedirs('./logs/{}'.format(i))
-    celue1.main(urls, csv_path, i)
+    celue4.main(urls, csv_path, i)
