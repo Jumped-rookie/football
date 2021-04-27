@@ -13,10 +13,10 @@ for i in url_list:
     date_dict.setdefault(key, [])
     date_dict[key].append(i)
 
-months = ['202007', '202008', '202009', '202010', '202011',
-          '202012', '202101', '202102', '202103']   # 选择要爬取的月份,该月在url_list中存在
+#months = ['202007', '202008', '202009', '202010', '202011',
+          #'202012', '202101', '202102', '202103']   # 选择要爬取的月份,该月在url_list中存在
 
-
+months =[ '201909','201908','201907',]
 for i in months:
     urls = []
     month = date_dict[i]
@@ -24,9 +24,9 @@ for i in months:
         url = "http://bf.win007.com/football/Over_" + j + ".htm"
         urls.append(url)
     # print(urls)
-    isExists = os.path.exists('../celue1/data')
+    isExists = os.path.exists('./data')
     if not isExists:
-        os.makedirs('../celue1/data')
+        os.makedirs('./data')
     csv_path = './data/{}.csv'.format(i)
     # print(csv_path)
     isExists = os.path.exists('./logs/{}'.format(i))

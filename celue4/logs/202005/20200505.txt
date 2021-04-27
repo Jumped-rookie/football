@@ -1,0 +1,11 @@
+开始采集http://bf.win007.com/football/Over_20200505.htm数据2021-04-24 04:27:02.062407
+采集开始http://op1.win007.com/oddslist/1867688.htm
+结束采集,无竞彩官方
+剩余2场比赛
+采集开始http://op1.win007.com/oddslist/1866778.htm
+结束采集,无竞彩官方
+剩余1场比赛
+采集开始http://op1.win007.com/oddslist/1867701.htm
+结束采集,无竞彩官方
+剩余0场比赛
+结束采集2021-04-24 04:28:02.607561

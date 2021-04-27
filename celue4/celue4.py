@@ -178,8 +178,24 @@ def _go_xxsj_saiguo(url):
             Saiguo = '找不到比分'
         return Saiguo
     else:
-        print('没有详细事件,找不到比分')
-        return '找不到比分'
+        trs = tree.xpath('.//*[text()="详细事件"]/../..//tr')
+        if len(trs) > 1:
+            td = trs[1]
+            try:
+                L_saiguo = int(td.xpath('./td[1]//text()')[0])
+                R_saiguo = int(td.xpath('./td[3]//text()')[0])
+                if L_saiguo > R_saiguo:
+                    Saiguo = '3'
+                elif L_saiguo < R_saiguo:
+                    Saiguo = '0'
+                else:
+                    Saiguo = '1'
+            except:
+                Saiguo = '找不到比分'
+            return Saiguo
+        else:
+            print('没有详细事件,找不到比分')
+            return '找不到比分'
 
 
 def _get_xiangshishijian(url):
@@ -190,7 +206,6 @@ def _get_xiangshishijian(url):
         td = trs[1]
         L_bf = int(td.xpath('./td[1]//text()')[0])
         R_bf = int(td.xpath('./td[3]//text()')[0])
-
         first_jq = '1'
         for i in trs:
             L_jq = i.xpath('./td[2]/img/@title')
@@ -206,8 +221,28 @@ def _get_xiangshishijian(url):
         else:
             return '找不到首先进球方'
     else:
-        print('没有详细事件')
-        return '没有详细事件'
+        trs = eh.xpath('.//*[text()="详细事件"]/../..//tr')
+        if len(trs) > 1:
+            td = trs[1]
+            L_bf = int(td.xpath('./td[1]//text()')[0])
+            R_bf = int(td.xpath('./td[3]//text()')[0])
+            first_jq = '1'
+            for i in trs:
+                L_jq = i.xpath('./td[2]/img/@title')
+                R_jq = i.xpath('./td[4]/img/@title')
+                if L_jq == ['入球'] or L_jq == ['点球'] or L_jq == ['乌龙']:
+                    first_jq = '3'
+                    return first_jq
+                elif R_jq == ['入球'] or R_jq == ['点球'] or R_jq == ['乌龙']:
+                    first_jq = '0'
+                    return first_jq
+            if first_jq == '1' and L_bf + R_bf == 0:
+                return first_jq
+            else:
+                return '找不到首先进球方'
+        else:
+            print('没有详细事件')
+            return '没有详细事件'
 
 
 def _get_yz(url):
@@ -309,7 +344,7 @@ def _pd(zscp, pjcp, kscp, zszp, pjzp, kszp):
     if '\xa0' == zscp or '\xa0' == pjcp or '\xa0' == kscp or \
             '\xa0' == zszp or '\xa0' == pjzp or '\xa0' == kszp:
         return False
-    if eval(zscp) > eval(kscp) and eval(zscp) < 3 and eval(zszp) > eval(zscp) and eval(zszp)-eval(kszp) >= -0.2:
+    if eval(zscp) < eval(kscp) and eval(zscp) < 3 and eval(zszp) > eval(zscp) and eval(zszp)-eval(kszp) >= -0.2:
         return True
     else:
         return False
