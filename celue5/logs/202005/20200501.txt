@@ -1,0 +1,26 @@
+开始采集http://bf.win007.com/football/Over_20200501.htm数据2021-04-27 04:50:34.226391
+采集开始http://op1.win007.com/oddslist/1867498.htm
+结束采集,无竞彩官方或无inter公司
+剩余7场比赛
+采集开始http://op1.win007.com/oddslist/1866869.htm
+结束采集,无竞彩官方或无inter公司
+剩余6场比赛
+采集开始http://op1.win007.com/oddslist/1866871.htm
+结束采集,无竞彩官方或无inter公司
+剩余5场比赛
+采集开始http://op1.win007.com/oddslist/1866872.htm
+结束采集,无竞彩官方或无inter公司
+剩余4场比赛
+采集开始http://op1.win007.com/oddslist/1861150.htm
+结束采集,无竞彩官方或无inter公司
+剩余3场比赛
+采集开始http://op1.win007.com/oddslist/1866503.htm
+结束采集,无竞彩官方或无inter公司
+剩余2场比赛
+采集开始http://op1.win007.com/oddslist/1866694.htm
+结束采集,无竞彩官方或无inter公司
+剩余1场比赛
+采集开始http://op1.win007.com/oddslist/1867503.htm
+结束采集,无竞彩官方或无inter公司
+剩余0场比赛
+结束采集2021-04-27 04:52:48.226748

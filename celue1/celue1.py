@@ -7,9 +7,10 @@ from multiprocessing.dummy import Pool
 from selenium import webdriver
 from lxml import etree
 import requests
-import re, csv
+import re, csv, os
 import time
-
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.select import Select
 
 def _write_log(name, txt, s, log_path, len_data=0):
     with open('./logs/{}/{}.txt'.format(log_path, name), 'a', encoding='utf-8') as f:
@@ -359,7 +360,7 @@ def _second_login(num_list2, date_url, log_name, csv_path, log_path):
             num_list2.insert(0, url)
             print(len(num_list2))
             print(url, '该链接抓取失败')
-            # _write_log(log_name, url, 4, log_path, len(num_list2))
+            _write_log(log_name, url, 4, log_path, len(num_list2))
             time.sleep(60)
     return None
 
